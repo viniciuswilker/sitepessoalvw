@@ -1,0 +1,277 @@
+/* Responsividade para iPad (tablet) */
+@media (max-width: 1024px) {
+
+    html,body{
+        overflow-x: hidden;
+
+    }
+
+    .background{
+        position: absolute; /* Garante que o fundo fique dentro do seu container pai */
+        top: 0;
+        left: 0;
+        width: 90%; /* Ajusta a largura ao tamanho do container pai */
+        height: 100%; /* Ajusta a altura ao tamanho do container pai */
+        overflow: hidden; /* Remove qualquer conteúdo que ultrapasse os limites */
+        z-index: -1; /* Mantém a animação atrás do conteúdo */
+          
+          
+
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    /************************** SOBRE ***/
+    .sobre {
+        height: auto;
+    }
+
+    .container-sobre {
+        height: auto;
+    }
+    
+    .headline-sobre {
+        height: auto;
+        position: relative;
+    }
+
+    .conteudo-sobre {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .left-sobre {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-sobre {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem-sobre {
+        justify-content: center;
+       
+    }
+
+    .complemento-sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .complemento-sobre img {
+        position: unset;
+        width: 100%;
+    }
+
+    /************************** SERVIÇOS ***/
+
+    .headline-servicos {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .titulo-servicos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .titulo-servicos h1 {
+        font-size: 6rem;
+    }
+
+    .descricao-servicos {
+        width: 100%;
+        text-align: right;
+        font-size: 1.4rem;
+    }
+
+    /************************** PORTFOLIO ***/
+
+    .container-portfolio {
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .headline-portfolio {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .headline-portfolio .titulo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .headline-portfolio .titulo {
+        font-size: 4rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headline-portfolio .descricao {
+        width: 100%;
+        text-align: right;
+        font-size: 1.4rem;
+    }
+
+    .container-case {
+        gap: 2rem;
+    }
+
+    .case1,
+    .case2,
+    .case3,
+    .case4{
+        margin-bottom: 5em;
+    }
+
+
+    .case1,
+    .case3 {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 3em;
+        height: auto;
+        justify-content: center;
+    }
+
+
+    .case2, 
+    .case4 {
+        /* display: flex; */
+        /* margin-top: 2em; */
+        flex-direction: column-reverse;
+        gap: 1rem;
+        height: auto;
+        height: auto;
+        justify-content: center;
+    }
+    
+    .imagens-case {
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 6em;
+    }
+
+    .textos-case {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .conteudo-textos-case h1{
+        font-size: 2em;
+        padding-top: 40px;
+        margin-top: 3em;
+    }
+
+    .maisInformacoes{
+        padding-top: 40px;
+        margin-bottom: 4em;
+    }
+
+    .tipoTrabalho{
+        padding: 9px;
+    }
+
+    .slide img{
+        padding-bottom: 50px;
+    } 
+
+    /************************** CONTATO ***/
+    .contato {
+        padding: 0rem 1rem 2rem 1rem;
+        height: auto;
+
+        
+    }
+
+    .container-contato {
+        width: 100%;
+        height: auto;
+    }
+
+    .headline-contato {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .titulo-contato {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .titulo-contato h1 {
+        font-size: 4rem;
+    
+    }
+
+    .descricao-contato {
+        width: 100%;
+        text-align: right;
+        font-size: 1.4rem;
+    }
+
+    .descricao-contato a {
+        text-decoration: none;
+        color: var(--color-black);
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+
+
+    .conteudo-contato {
+        padding-top: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .logo-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-contato img{
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+    .formulario-contato {
+        width: 100%;
+        padding-left: 10px;       /* RETIRAR SE NECESSARIO*/
+        
+    
+    }
+
+
+
+
+
+    .credits-column {
+        width: auto;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .logo-column img{
+        width: 150px;
+        /* height: 40px; */
+
+    }
+
+    
+
+}
