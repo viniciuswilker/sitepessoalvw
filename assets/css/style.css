@@ -310,6 +310,7 @@ a {
     font-size: clamp(1rem, 2.5vw + .8rem, 3rem);
     font-family: var(--font-grande);
     font-weight: normal;
+
 }
 
 .destaque-inicio {
@@ -1413,6 +1414,7 @@ a {
 .footer-nav a:hover {
     /* color: var(--color-destaque1); */
     color: #007BFF;
+    transform: scale(1.03);
 }
 
 .social-column {
@@ -1442,6 +1444,7 @@ a {
 .social-links a:hover {
     /* color: var(--color-destaque1); */
     color: #007BFF;
+    transform: scale(1.03);
 }
 
 .credits-column {
