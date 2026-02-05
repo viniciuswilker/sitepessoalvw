@@ -503,7 +503,7 @@ a {
     align-items: center;
     gap: 40px;
     white-space: nowrap;
-    animation: scroll 30s linear infinite;
+    animation: scroll 7s linear infinite;
 }
 
 @keyframes scroll {

@@ -1,21 +1,25 @@
-/* Responsividade para iPad (tablet) */
+@media (min-width: 768px) {}
+
+
+
 @media (max-width: 1024px) {
 
-    html,body{
+    html,
+    body {
         overflow-x: hidden;
 
     }
 
-    .background{
-        position: absolute; /* Garante que o fundo fique dentro do seu container pai */
+    .background {
+        position: absolute;
         top: 0;
         left: 0;
-        width: 90%; /* Ajusta a largura ao tamanho do container pai */
-        height: 100%; /* Ajusta a altura ao tamanho do container pai */
-        overflow: hidden; /* Remove qualquer conteúdo que ultrapasse os limites */
-        z-index: -1; /* Mantém a animação atrás do conteúdo */
-          
-          
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+
+
 
     }
 
@@ -23,7 +27,6 @@
         padding: 0;
     }
 
-    /************************** SOBRE ***/
     .sobre {
         height: auto;
     }
@@ -31,7 +34,7 @@
     .container-sobre {
         height: auto;
     }
-    
+
     .headline-sobre {
         height: auto;
         position: relative;
@@ -55,7 +58,7 @@
 
     .imagem-sobre {
         justify-content: center;
-       
+
     }
 
     .complemento-sobre {
@@ -69,7 +72,6 @@
         width: 100%;
     }
 
-    /************************** SERVIÇOS ***/
 
     .headline-servicos {
         flex-direction: column;
@@ -87,13 +89,25 @@
         font-size: 6rem;
     }
 
+    .titulo-inicio {
+        text-align: center;
+    }
+
+    .titulo-inicio h1 {
+        font-size: 3rem;
+
+    }
+
+    .headline-scroll {
+        animation: scroll 4s linear infinite;
+    }
+
     .descricao-servicos {
         width: 100%;
         text-align: right;
         font-size: 1.4rem;
     }
 
-    /************************** PORTFOLIO ***/
 
     .container-portfolio {
         gap: 2rem;
@@ -131,7 +145,7 @@
     .case1,
     .case2,
     .case3,
-    .case4{
+    .case4 {
         margin-bottom: 5em;
     }
 
@@ -146,17 +160,16 @@
     }
 
 
-    .case2, 
+    .case2,
     .case4 {
-        /* display: flex; */
-        /* margin-top: 2em; */
+
         flex-direction: column-reverse;
         gap: 1rem;
         height: auto;
         height: auto;
         justify-content: center;
     }
-    
+
     .imagens-case {
         width: 100%;
         height: 60vh;
@@ -168,31 +181,30 @@
         height: 35vh;
     }
 
-    .conteudo-textos-case h1{
+    .conteudo-textos-case h1 {
         font-size: 2em;
         padding-top: 40px;
         margin-top: 3em;
     }
 
-    .maisInformacoes{
+    .maisInformacoes {
         padding-top: 40px;
         margin-bottom: 4em;
     }
 
-    .tipoTrabalho{
+    .tipoTrabalho {
         padding: 9px;
     }
 
-    .slide img{
+    .slide img {
         padding-bottom: 50px;
-    } 
+    }
 
-    /************************** CONTATO ***/
     .contato {
         padding: 0rem 1rem 2rem 1rem;
         height: auto;
 
-        
+
     }
 
     .container-contato {
@@ -214,7 +226,7 @@
 
     .titulo-contato h1 {
         font-size: 4rem;
-    
+
     }
 
     .descricao-contato {
@@ -243,7 +255,7 @@
         justify-content: center;
     }
 
-    .logo-contato img{
+    .logo-contato img {
         width: 100%;
         max-height: 500px;
         object-fit: cover;
@@ -251,14 +263,9 @@
 
     .formulario-contato {
         width: 100%;
-        padding-left: 10px;       /* RETIRAR SE NECESSARIO*/
-        
-    
+        padding-left: 10px;
+
     }
-
-
-
-
 
     .credits-column {
         width: auto;
@@ -266,12 +273,11 @@
         margin-top: 0;
     }
 
-    .logo-column img{
+    .logo-column img {
         width: 150px;
-        /* height: 40px; */
 
     }
 
-    
+
 
 }
