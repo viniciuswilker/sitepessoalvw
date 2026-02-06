@@ -20,6 +20,7 @@
 
     --color-destaque1: #d84848;
     --color-destaque2: #1e362b;
+    --color-destaque3: #1d362b;
     --primary-color: #2d483a;
 
     --bg-card: rgba(12, 18, 16, 0.9);
@@ -30,27 +31,6 @@
 
     --bg-gradient: linear-gradient(180deg, #070908 0%, #200505 100%);
 }
-
-
-
-
-/* :root {
-    --font-grande: 'TT Hoves Pro Trial', sans-serif;
-    --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
-    --color-gray1: #3d4143;
-    --color-gray2: #9c9d9d;
-    --color-white: #f6f6f6;
-    --color-destaque1: #e7fc00;
-    --color-destaque2: #728e6f;
-    --primary-color: #007BFF;
-
-
-    --bg-card: rgba(255, 255, 255, 0.03);
-    --border-glass: rgba(255, 255, 255, 0.1);
-    --shadow-glow: rgba(231, 252, 0, 0.2);
-
-} */
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -86,8 +66,12 @@ body {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     transition: transform 0.3s ease-out;
-}
+    background:
+        radial-gradient(900px 700px at 80% 90%, color-mix(in oklab, var(--color-destaque1) 15%, transparent), transparent 70%),
+        var(--color-black);
+    background-attachment: fixed;
 
+}
 
 body::before {
     content: "";
@@ -474,7 +458,8 @@ a {
 /*************** SOBRE  *****/
 .sobre {
     background-color: var(--color-black);
-    width: 100%;
+    /* width: 100%; */
+    width: 100vw;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -681,6 +666,9 @@ a {
     width: 100vw;
     padding: 100px 5%;
     background-color: var(--color-black);
+    background:
+        radial-gradient(900px 700px at 80% 90%, color-mix(in oklab, var(--color-destaque3) 15%, transparent), transparent 70%),
+        var(--color-black);
     /* background-color: var(--bg-roxo); */
 
 }
@@ -1324,7 +1312,7 @@ a {
 /*************** FOOTER *****/
 .footer {
     background-color: var(--color-black);
-    width: 100%;
+    width: 100vw;
     padding: 80px 5% 40px 5%;
     color: var(--color-white);
     display: flex;
