@@ -201,7 +201,7 @@
     }
 
     .contato {
-        padding: 0rem 1rem 2rem 1rem;
+        /* padding: 0rem 1rem 2rem 1rem; */
         height: auto;
 
 
@@ -221,7 +221,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: left;
+        justify-content: center;
     }
 
     .titulo-contato h1 {
@@ -279,5 +279,11 @@
     }
 
 
+    .mythic-divider {
+        display: none;
+    }
 
+    .mythic-divider2 {
+        display: none;
+    }
 }
