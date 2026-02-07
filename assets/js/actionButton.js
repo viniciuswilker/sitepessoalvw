@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'https://wa.link/oxz2xi';
     });
 });
+

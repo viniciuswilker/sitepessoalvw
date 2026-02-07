@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const typedTextSpan = document.querySelector(".containerTextAnima");
-    const textArray = ["Desenvolvedor Web", "Automações"];
+    const textArray = ["Desenvolvedor Web", "Automações",];
     const typingDelay = 90;
     const erasingDelay = 70;
     const pauseDelay = 1000;
